@@ -1,0 +1,25 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Facebook Test">
+	<test name="Page Test">
+		<groups>
+			<run>
+				<include name="t1" />
+			</run>
+		</groups>
+		<classes>
+			<class name="faceBookPages.TestPage" />
+		</classes>
+	</test>
+
+	<test name="Same Page">
+		<groups>
+			<run>
+				<include name="t2" />
+			</run>
+		</groups>
+		<classes>
+			<class name="faceBookPages.TestPage" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->

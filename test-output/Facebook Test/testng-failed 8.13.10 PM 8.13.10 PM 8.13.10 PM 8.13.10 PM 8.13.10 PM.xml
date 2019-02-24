@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Facebook Test]">
+  <test name="Page Test(failed)">
+    <groups>
+      <run>
+        <include name="t1"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="faceBookPages.TestPage">
+        <methods>
+          <include name="test1"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- faceBookPages.TestPage -->
+    </classes>
+  </test> <!-- Page Test(failed) -->
+  <test name="Same Page(failed)">
+    <groups>
+      <run>
+        <include name="t2"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="faceBookPages.TestPage">
+        <methods>
+          <include name="test2"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- faceBookPages.TestPage -->
+    </classes>
+  </test> <!-- Same Page(failed) -->
+</suite> <!-- Failed suite [Facebook Test] -->

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11524" started-at="2019-02-24T01:15:27Z" finished-at="2019-02-24T01:15:39Z">
+    <groups>
+      <group name="field">
+        <method signature="TestPage.test1()[pri:0, instance:faceBookTest.TestPage@26a7b76d]" name="test1" class="faceBookTest.TestPage"/>
+        <method signature="TestPage.test2()[pri:0, instance:faceBookTest.TestPage@26a7b76d]" name="test2" class="faceBookTest.TestPage"/>
+      </group> <!-- field -->
+      <group name="t1">
+        <method signature="TestPage.test1()[pri:0, instance:faceBookTest.TestPage@26a7b76d]" name="test1" class="faceBookTest.TestPage"/>
+      </group> <!-- t1 -->
+      <group name="t2">
+        <method signature="TestPage.test2()[pri:0, instance:faceBookTest.TestPage@26a7b76d]" name="test2" class="faceBookTest.TestPage"/>
+      </group> <!-- t2 -->
+    </groups>
+    <test name="Default test" duration-ms="11524" started-at="2019-02-24T01:15:27Z" finished-at="2019-02-24T01:15:39Z">
+      <class name="faceBookTest.TestPage">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:faceBookTest.TestPage@26a7b76d]" name="setUp" is-config="true" duration-ms="4419" started-at="2019-02-24T01:15:27Z" finished-at="2019-02-24T01:15:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:faceBookTest.TestPage@26a7b76d]" name="test1" duration-ms="3893" started-at="2019-02-24T01:15:32Z" finished-at="2019-02-24T01:15:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:faceBookTest.TestPage@26a7b76d]" name="test2" duration-ms="3198" started-at="2019-02-24T01:15:36Z" finished-at="2019-02-24T01:15:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:faceBookTest.TestPage@26a7b76d]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-02-24T01:15:39Z" finished-at="2019-02-24T01:15:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- faceBookTest.TestPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
